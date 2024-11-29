@@ -28,6 +28,20 @@ select*from Actors limit 3 offset 10;
 select*from Actors where Firstname like "%sh%" limit 3;
 UPDATE Actors set Networth =895 where Firstname ="ayushi";
 
+show databases;
+use movies_database;
+show tables;
+select*from Actors;
+delete from actors where firstname="abhishek";
+delete from actors where firstname="vishal";
+UPDATE Actors set Networth =895 where Firstname ="ayushi";
+insert into Actors (Firstname, Lastname,Gender, Networth) values("Vishal", "saini", "male", 400);
+insert into Actors (Firstname, Lastname,Gender, Networth) values("sonam", "satankar", "female", 480);
+UPDATE Actors set Networth =347 where Firstname ="saksham" and lastname="sharma";
+UPDATE Actors set Networth =447 where Firstname ="saksham" and lastname="jain";
+UPDATE Actors set Networth =547 where Firstname ="saksham" and lastname="sahu";
+
+
 
 
 
