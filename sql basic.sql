@@ -40,6 +40,7 @@ insert into Actors (Firstname, Lastname,Gender, Networth) values("sonam", "satan
 UPDATE Actors set Networth =347 where Firstname ="saksham" and lastname="sharma";
 UPDATE Actors set Networth =447 where Firstname ="saksham" and lastname="jain";
 UPDATE Actors set Networth =547 where Firstname ="saksham" and lastname="sahu";
+desc actors;
 
 
 
